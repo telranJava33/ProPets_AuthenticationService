@@ -1,6 +1,5 @@
 package authentication.AuthResponse;
 
-import org.springframework.http.HttpStatus;
 
 public class AuthResponse {
     boolean status;
@@ -11,7 +10,7 @@ public class AuthResponse {
         this.message = message;
     }
 
-    public boolean isStatus() {
+    public boolean getStatus() {
         return status;
     }
 

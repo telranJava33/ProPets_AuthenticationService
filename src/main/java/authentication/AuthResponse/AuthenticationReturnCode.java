@@ -1,5 +1,6 @@
 package authentication.AuthResponse;
 
 public enum AuthenticationReturnCode {
-    EXPERAION_SESSION, INVALID_TOKEN, OK
+    EXPIRATION_SESSION, INVALID_TOKEN, OK, INVALID_EMAIL, CREATION_TOKEN_FAILED
 }
+
